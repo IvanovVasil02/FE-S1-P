@@ -15,12 +15,9 @@ body {
     box-sizing: border-box;
 }
 
-hr {
-    display: none;
-}
 
 h1 {
-    font-size: 50px;
+    font-size: 2.5em;
     font-weight: bold;
 }
 
@@ -29,17 +26,17 @@ h2 {
 }
 
 h3 {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     font-weight: bold;
 }
 
 h4 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: lighter;
 }
 
 i {
-    font-size: 2rem;
+    font-size: 2.2rem;
 }
 
 h1,
@@ -49,8 +46,9 @@ h3 {
     line-height: 1em;
     color: #25a2c3;
     letter-spacing: -0.03em;
-    margin-bottom: 0.8em;
+    margin-bottom: 0.4em;
 }
+
 
 p,
 address,
@@ -58,9 +56,10 @@ ul,
 ol,
 dl,
 blockquote {
-    font-size: 2.5rem;
-    margin-bottom: 1.2em;
+    font-size: 2.2rem;
+    margin-bottom: 1.8em;
 }
+
 
 button {
     background-color: #f04c2f;
@@ -77,8 +76,8 @@ button {
 
 header {
     background-color: #000;
-    text-align: center;
-    padding: 2em 1.5em;
+    text-align: left;
+    padding: 2em 2em;
 
 }
 
@@ -98,13 +97,14 @@ main {
 main .cont-home {
     text-align: center;
     background-image: url('../images/banner.jpg');
-    background-position: center center;
+    background-position: ;
     background-size: cover;
-    padding: 4em;
+    background-repeat: no-repeat;
+    padding: 12em 25em;
 }
 
 main .cont-desc {
-    padding: 60px 40px;
+    padding: 100px 60px;
 }
 
 main .cont-desc .cont-img1 {
@@ -112,17 +112,26 @@ main .cont-desc .cont-img1 {
     background-position: center center;
     background-size: cover;
     border-radius: 50%;
-    width: 350px;
-    height: 350px;
+    width: 450px;
+    height: 450px;
     margin-inline: auto;
-    margin-block-end: 50px;
+    display: inline-block;
+}
+
+main .cont-desc2 {
+
+    display: inline-block;
+    text-align: left;
+    box-sizing: border-box;
+    width: 50%;
+    padding-inline: 5em;
 }
 
 
 .testimonianza {
     background-color: #e22d0e;
     color: #fff;
-    padding: 40px 20px 50px 20px;
+    padding: 80px 20px;
 }
 
 .testimonianza h2,
@@ -139,54 +148,67 @@ main .cont-desc .cont-img1 {
 }
 
 .testimonianza div:last-of-type {
-    line-height: 10px;
+    line-height: 20px;
+}
+
+
+.cont-desc3 {
+    border: 1px solid black;
+    padding-block: 50px;
 }
 
 .square-box {
     border: 1px solid #dee1e3;
     padding-bottom: 20px;
-    margin-bottom: 3.5em;
+    display: inline-block;
+    width: 300px;
+    margin: 40px;
     border-radius: 0 0 5px 5px;
 
 }
 
 .square-box img {
-    width: 100%;
-    margin-bottom: 20px;
+    width: 300px;
+    height: 200px;
+    margin-bottom: 30px;
 }
 
-
+.square-box h4 {
+    margin-inline: 20px;
+}
 
 
 footer {
     background-color: #25a2c3;
     color: #fff;
     text-align: center;
-    padding-block: 50px;
+    padding-block: 60px;
 }
 
 footer i {
     font-size: 40px;
 }
 
-footer h2 {
+footer h1 {
     color: white;
     font-weight: bold;
 }
 
-
 footer .cont-contatti {
-    width: 80%;
     border-bottom: 1px solid #c8e7f0;
+    width: 20em;
     margin: 30px auto;
+    padding-left: 4em;
 }
 
 footer ul {
+    text-align: left;
     list-style-type: none;
 }
 
 
 footer a {
+    font-size: medium;
     color: #c8e7f0;
     text-decoration: underline;
 }
